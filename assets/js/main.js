@@ -18,6 +18,17 @@ $(document).ready(function(){
         $("#development-1").hide();
         $("#development").show();
     });
+
+    // product toggle
+    $("#product").click(function() {
+        $("#product").hide();
+        $("#product-1").show();
+    });
+    $("#product-1").click(function() {
+        $("#product-1").hide();
+        $("#product").show();
+    });
+    
     
 
 });
