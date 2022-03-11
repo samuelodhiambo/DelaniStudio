@@ -23,3 +23,76 @@
   #product-1 {
     display: none;
   }
+
+  .p-show {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid white;
+    text-align: left;
+    width: 80%;
+    height: 80%;
+  }
+  
+  .work4 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .work3 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .work2 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .work1 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .work5 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .work6 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .work7 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .work8 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .tinted-image:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 91%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+  }
+  
