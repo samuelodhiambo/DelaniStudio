@@ -7,3 +7,7 @@
     text-align: center;
     color: var(--bs-white);
   }
+
+  .services {
+    background: url("../../assets/img/backgrounds/s_image.jpg") top left / cover no-repeat;
+  }
