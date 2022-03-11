@@ -106,3 +106,30 @@
     border-width: 2px;
     border-color: var(--bs-dark);
 }
+
+.contact {
+    margin: 10px 100px;
+  }
+  
+  @media (max-width: 992px) {
+    .contact {
+      margin: 10px 10px;
+    }
+  }
+  
+  .placeholder {
+    cursor: text;
+  }
+  
+  .form-control::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  
+  .form-control:-ms-input-placeholder {
+    color: white;
+  }
+  
+  .form-control::-ms-input-placeholder {
+    color: white;
+  }
