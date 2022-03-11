@@ -1,0 +1,9 @@
+.sect-1 {
+    height: 100vh;
+    background: url("../../assets/img/backgrounds/h_img.jpg") top left / cover no-repeat;
+  }
+
+  .welcome {
+    text-align: center;
+    color: var(--bs-white);
+  }
