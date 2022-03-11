@@ -96,3 +96,13 @@
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
   }
   
+.contact-us {
+    background: url(../../assets/img/backgrounds/c_image.jpg) top left / cover no-repeat;
+}
+
+.contact-btn {
+    background: transparent;
+    color: var(--bs-dark);
+    border-width: 2px;
+    border-color: var(--bs-dark);
+}
