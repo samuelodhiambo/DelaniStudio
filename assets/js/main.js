@@ -9,4 +9,15 @@ $(document).ready(function(){
         $("#design").show();
     });
 
+    // development toggle
+    $("#development").click(function() {
+        $("#development").hide();
+        $("#development-1").show();
+    });
+    $("#development-1").click(function() {
+        $("#development-1").hide();
+        $("#development").show();
+    });
+    
+
 });
