@@ -11,3 +11,15 @@
 .services {
     background: url("../../assets/img/backgrounds/s_image.jpg") top left / cover no-repeat;
 }
+
+#design-1 {
+    display: none;
+  }
+  
+  #development-1 {
+    display: none;
+  }
+  
+  #product-1 {
+    display: none;
+  }
