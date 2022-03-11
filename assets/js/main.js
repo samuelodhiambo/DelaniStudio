@@ -112,6 +112,15 @@ $(document).ready(function(){
         $(".work8").removeClass('tinted-image');
     });
     
-    
+    // Vanilla js function
+    // handle contact form
+    var form = document.getElementById("contact")
+    form.addEventListener('submit', function(event){
+        // event.preventDefault()
+        var name = this.name.value
+        var email = this.email.value
+        var message = this.message.value
+        alert(name + ", we have received your message. Thank you for reaching out to us.")
+    })
 
 });
