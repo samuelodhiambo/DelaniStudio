@@ -117,9 +117,9 @@ $(document).ready(function(){
     var form = document.getElementById("contact")
     form.addEventListener('submit', function(event){
         // event.preventDefault()
-        var name = this.name.value
-        var email = this.email.value
-        var message = this.message.value
+        var name = this.NAME.value
+        var email = this.EMAIL.value
+        var message = this.MESSAGE.value
         alert(name + ", we have received your message. Thank you for reaching out to us.")
     })
 
