@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .sect-1 {
     height: 100vh;
     background: url("../../assets/img/backgrounds/h_img.jpg") top left / cover no-repeat;
